@@ -122,3 +122,46 @@ footer img {
 	margin-right: 1rem;
  
 }
+
+@media only screen and (max-width: 1024px), (max-device-width: 1024px) {
+	.container-size {
+		width: 100%;
+	}
+	header {
+		padding-top: 0;
+		height: 30rem;
+	}
+	.logo {
+		margin-bottom: 5rem;
+	}
+	.logoHighlight {
+		margin-right: 2rem;
+	}
+	.logoHighlight h1 {
+		padding: 0.75rem 4rem;
+		font-size: 1.33rem;
+	}
+
+}
+
+@media only screen and (max-width: 470px), (max-device-width: 470px) {
+
+		.container-size {
+		width: 100%;
+		}
+		header {
+		padding-top: 0;
+		height: 17rem;
+	}
+		.logo {
+		margin-bottom: 9rem;
+	}
+
+		.logoHighlight h1 {
+			display: block;
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+			font-size: 1rem;
+			text-align: center;
+		}
+}
