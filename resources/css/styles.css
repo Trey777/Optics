@@ -40,6 +40,9 @@ nav span {
 
 	padding-right: 2rem;
 }
+.mobileMenu {
+	display: none;
+}
 
 .logoText {
 	display: inline-flex;
@@ -150,18 +153,49 @@ footer img {
 		width: 100%;
 		}
 		header {
+		background-position: 20%;
 		padding-top: 0;
 		height: 17rem;
 	}
 		.logo {
 		margin-bottom: 9rem;
 	}
+		.logoText p {
+			display: none;
+		}
 
 		.logoHighlight h1 {
-			display: block;
+			width: 100%;
+			display: flex;
 			padding-top: 1rem;
 			padding-bottom: 1rem;
 			font-size: 1rem;
 			text-align: center;
 		}
+		.logoHighlight {
+			text-align: center;
+		}
+		.logo nav {
+			display: none;
+		}
+		.mobileMenu {
+			display: inline-flex;
+	}
+		.contentPhotos {
+			display: flex;
+			flex-direction: column;
+		}
+		.info {
+			display: flex;
+			flex-direction: column;
+		}
+		.title {
+			width: 100%; 
+			padding-bottom: 4rem;
+		}
+		footer p {
+			display: none;
+		}
+		footer img {
+			margin: 0 auto;
 }
